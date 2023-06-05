@@ -1,0 +1,19 @@
+/* styles.css */
+
+body {
+    color-interpolation-filters: auto;
+    background-color: bisque;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+img {
+    color-interpolation-filters: inherit;
+    background-color: coral;
+}
+
+p {
+    background-position-x: 3rem;
+}

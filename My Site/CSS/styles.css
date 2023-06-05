@@ -1,0 +1,99 @@
+body {
+    background-color: darkslategrey;
+    margin: 0%;
+}
+
+.top-container .middle-container .bottom-container {
+   
+    border-width: 10px;
+
+}
+
+
+/****** Containers ******/
+
+/* Parent */
+.parent_Container {
+    display: block;
+}
+
+
+.top-container {
+    display: block;
+    background-color: skyblue;
+    border: solid;
+    border-color: whitesmoke;
+    /* height: 200px; */
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+    /* width: 200px; */
+    text-align: center;
+    /* aligns the <p> || img || <div> img </div> */
+    /* that does not have a width set */
+}
+
+.middle-container {
+    /* width: 200px;
+    height: 200px; */
+    background-color: #FFAFAF ;
+    border: solid;
+    border-color: #95E1D3;
+    height: 200px;
+    border-width: 20px;
+    width: 200px;
+    position: relative;
+    left: 246px;
+}
+
+.bottom-container {
+    /* width: 200px;
+    height: 200px; */
+    background-color: #FBFFE2;
+    border: solid;
+    border-color: #142F43;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 486px;
+}
+
+
+/************ Containers END ***********/
+
+
+/*************** Generics **************/
+h1 {
+    margin: 0%;
+
+}
+
+div {
+    /* position: relative; */
+}
+
+/*********** GEN ENDS ***********/
+
+
+.stress {
+    text-decoration: line-through;
+}
+
+.cool {
+    text-decoration: underline;
+}
+
+/************  clouds  ************/
+
+.bottom-cloud {
+    position: absolute;
+    left: 30%
+}
+
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 50px;
+}
+
+
